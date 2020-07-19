@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="El sitio de los mejores!" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <title>ASAS GROUP - Tu mejor Aliado!</title>
+  </head>
+  <body>
+    <!------- inicio del navBar -->
+    <div class="wrapper">
+      <nav>
+        <a href="#"><img src="images/LOGO_ASAS_SIN.png" alt="Logo_Asas" /></a>
+        <ul>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#servicios">Servicios</a>
+          </li>
+          <li>
+            <a href="#contactanos">Contáctanos</a>
+          </li>
+          <li>
+            <a href="https://asasgroupsas.blogspot.com/">Blog</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- inicio del la seccion principal -->
+      <section class="mainSection">
+        <h1>
+          ASAS GROUP <br />
+          ¡Tu Mejor Aliado Contable y Financiero!
+        </h1>
+      </section>
+
+      <!-- -----   Servicios -->
+      <h2 class="services_title" id="servicios">NUESTROS SERVICIOS</h2>
+      <div class="services">
+        <div class="container_service">
+          <img src="images/Contable.png" alt="Contabilidad" />
+          <div class="text">
+            <h3>Asesoría Contable</h3>
+            <p>
+              Presentamos a tiempo la
+              <u>información contable y análisis de los resultados</u>
+              obtenidos, contribuyendo en la evaluación y crecimiento de los
+              negocios. <br />
+              <br />
+              La contabilidad debe ser aliado del empresario para tomar
+              decisiones y dar cumplimiento a sus obligaciones legales y
+              tributarias.
+            </p>
+            <a href="contabilidad.html">
+              <input type="submit" class="main_btn" value="Más Info..." />
+            </a>
+          </div>
+        </div>
+        <div class="container_service">
+          <img src="images/Impuesto.png" alt="Tributaria" />
+          <div class="text">
+            <h3>Asesoría Tributaria</h3>
+            <p>
+              Ofrecemos tranquilidad en las compañías al dar cumplimiento a
+              obligaciones tributarias, presentando impuestos con tiempo
+              anticipado al vencimiento de pago y utilizando normas vigentes.
+              <br />
+              <br />
+              <u
+                >Evita requerimientos, multas o sanciones de entidades del
+                Estado. </u
+              ><br />
+            </p>
+            <a href="tributaria.html">
+              <input type="submit" class="main_btn" value="Más Info..." />
+            </a>
+          </div>
+        </div>
+        <div class="container_service">
+          <img src="images/Auditoria.png" alt="Contabilidad" />
+          <div class="text">
+            <h3>Revisoría Fiscal</h3>
+            <p>
+              Este servicio es considerado como apoyo para la Gerencia General,
+              Inversionistas, Junta Directiva, al
+              <u>evaluar los procesos y riesgos</u>
+              que se generan en la operación y administración del negocio.
+              <br /><br /><br /><br /><br />
+            </p>
+            <a href="auditoria.html">
+              <input type="submit" class="main_btn" value="Más Info..." />
+            </a>
+          </div>
+        </div>
+        <div class="container_service">
+          <img src="images/Emprender.png" alt="Contabilidad" />
+          <div class="text t_emprendedor">
+            <h3>Para Emprendedores</h3>
+            <p>
+              Si decidiste poner en marcha tu idea de negocio, no dudes en
+              contactarnos!
+              <br />
+              <br />
+              <u>Asesoramos en trámites</u> que se deben formalizar para
+              constituir empresa, orientamos en temas administrativos y
+              contables. <br /><br /><br />
+            </p>
+            <a href="emprendedores.html">
+              <input type="submit" class="main_btn" value="Más Info..." />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----slogan -->
+      <div class="slogan">
+        <h2>
+          ¡Con nuestra asesoría <br />
+          mide, evalúa y proyecta tu negocio!
+        </h2>
+      </div>
+
+      <!-- ------Contactos -->
+      <h2>CONTÁCTANOS</h2>
+      <div class="container_cont" id="contactanos">
+        <div class="row">
+          <div class="col-6 formulario">
+            <form action="">
+              <label for="names">Nombre</label>
+              <br />
+              <input
+                type="text"
+                id="names"
+                class="data"
+                placeholder="Name"
+                required
+              />
+              <br />
+              <label for="mail">Email</label>
+              <br />
+              <input
+                type="email"
+                id="mail"
+                class="data"
+                placeholder="E-mail"
+                required
+              />
+              <br />
+              <label for="phone">Teléfono</label>
+              <br />
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Phone"
+                class="data"
+                required
+              />
+              <br />
+              <label for="message">Mensaje</label>
+              <br />
+              <textarea
+                name=""
+                id="message"
+                placeholder="Mesagge"
+                required
+              ></textarea>
+              <a href="#">
+                <input type="submit" class="main_btn" value="Enviar" />
+              </a>
+            </form>
+          </div>
+          <div class="col-6 horario">
+            <h4>Teléfonos</h4>
+            <p>
+              320 353 5571 <br />
+              310 236 0999
+            </p>
+            <h4>Horarios de atención</h4>
+            <p>
+              Lunes - Viernes: 8am - 5pm
+              <br />
+              Sabados: 8am - 1pm
+              <br />
+              Domingo: cerrado
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!----- footer -->
+      <footer class="footer">
+        <h5>E-Commerce and Social Media</h5>
+        <div class="row">
+          <!------ leftfooter -->
+          <div class="col-4 chat">
+            <div class="socialLeft">
+              <a href="" class="whatsImage" target="_blank">
+                <img src="images/whatsapp.png" alt="whatsapp" />
+              </a>
+              <p>
+                320 353 5571 <br />
+                310 236 0999
+              </p>
+            </div>
+            <br />
+            <div class="socialLeft">
+              <a href="" target="_blank" class="email">
+                <img src="images/mail.png" id="imgMail" alt="mail" />
+                <p>
+                  info@asasgroup.com.co
+                </p>
+              </a>
+            </div>
+          </div>
+          <!------ rightfooter -->
+          <div class="col-8">
+            <div class="socialMedia">
+              <div class="facebook">
+                <a
+                  href="https://www.facebook.com/asasgroupsas/"
+                  class="socialLink"
+                  target="_blank"
+                >
+                  <img src="images/facebook.svg" id="socialImage" alt="" />
+                  <p><strong>asasgroupsas</strong></p>
+                </a>
+              </div>
+              <div class="instagram">
+                <a
+                  href="https://www.instagram.com/asas_group/"
+                  class="socialLink"
+                  target="_blank"
+                >
+                  <img src="images/instagram.svg" id="socialImage" alt="" />
+                  <p><strong>asas_group</strong></p>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/asas-group-sas-0109a9198/"
+                  class=""
+                  target="_blank"
+                >
+                  <img
+                    src="images/linkedinWhite.png"
+                    alt="linkedin"
+                    id="linkedin"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
