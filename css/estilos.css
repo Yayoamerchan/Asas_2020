@@ -82,9 +82,10 @@ nav a:hover {
 h1 {
   color: white;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   padding: 0.625em;
   margin: 0;
+  /* text-decoration: dotted; */
   /* text-shadow: derecha abajo difuminado Color; */
   text-shadow: 1px 2px gray;
   /* text-shadow: -1px 0 gray, 1px 0 gray, 0 1px gray, 0 -1px gray; */
@@ -195,7 +196,9 @@ p {
 }
 
 .slogan h2 {
-  font-size: 2.12em;
+  font-size: 2.32em;
+  /* text-shadow: derecha abajo difuminado Color; */
+  text-shadow: 1px 2px gray;
 }
 
 /* --- Contactos */
@@ -290,10 +293,11 @@ h5 {
 
 #linkedin {
   width: 5.625em;
-  height: 2.0625em;
+  height: 1.425em;
 }
 
 .facebook,
-.instagram {
+.instagram,
+.youtube {
   margin-right: 10px;
 }
